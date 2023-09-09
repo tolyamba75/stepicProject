@@ -6,9 +6,13 @@ func main() {
 	var number, maxNumber, countMax int
 	countMax, maxNumber = 0, 0
 
-	for fmt.Scan(&number); number != 0; fmt.Scan(&number) {
+labl:
+	for {
+		fmt.Scan(&number)
 
 		switch {
+		case number == 0:
+			break labl
 		case number > maxNumber:
 			maxNumber = number
 			countMax = 1
