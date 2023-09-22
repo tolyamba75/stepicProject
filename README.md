@@ -47,5 +47,5 @@
 
 ## *2.4 module* - **Структуры**
 
-- знакомство с методами --> первоначальная фунция `interacts_shapes.go`
+- знакомство с методами --> первоначальная фунция `interacts_shapes.go` => `method_interacts_shapes.go`
 - отличие между метода и функции: `example_func.go` и `example_method.go`
